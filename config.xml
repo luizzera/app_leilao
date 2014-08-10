@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id = "br.com.leilao.engenhodagenetica"
-        version = "2.2.0">
-    <name>Leilão Engenho da Genética </name>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+            xmlns:gap   = "http://phonegap.com/ns/1.0"
+            id          = "com.phonegap.example"
+            versionCode = "10" 
+            version     = "1.0.0" >
+
+    <name>LeilÃ£o Engenho da GenÃ©tica</name>
+
     <description>
-        Dia 23 de Agosto - &agrave;s 14:00
+        Dia 23 de Agosto - as 14:00
     </description>
+
     <author href="http://tbadigital.com.br" email="nathan@tbati.com.br">
-        TBA Digital
+        Equipe TBA Digital
     </author>
-    <preference name="phonegap-version" value="2.2.0" />
-    <preference name="orientation" value="default" />
-    <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="false" />
     <icon src="img/icon_apresentacao.png" />
     <gap:splash src="img/splash.png" />
-    
+
 </widget>
