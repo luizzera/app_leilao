@@ -1,0 +1,200 @@
+$vermelho_bg : #4E0101;
+$dourado_font : #D4B272;
+
+body, html{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#conteudo_principal{
+    width: 100%;
+    height: 100%;
+    background-color: $vermelho_bg;
+
+    img{
+        width: 80%;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    button{
+        width: 100%;
+    }
+
+}
+
+.topo_principal{
+    width: 100%;
+    background: $vermelho_bg;
+    text-align: center; padding: 20px;
+    border-bottom: solid 1px $dourado_font;
+
+    img{
+        width: 150px;
+    }
+}
+
+
+
+.badge_inicio{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: $dourado_font;
+    background: $vermelho_bg;
+    
+    img{
+        width: 80%;
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+.btn-leilao {
+    color: $dourado_font;
+    background-color: $vermelho_bg;
+    border-color: $vermelho_bg;
+    margin-bottom: 5px;
+
+    &:hover, &:active{
+        color: white;
+    }
+    &:visited{
+        color: $dourado_font;
+    }
+
+}
+
+.menu_topo{
+    background: $vermelho_bg;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid 1px $dourado_font;
+
+    span{
+        padding: 15px;
+        color: $dourado_font;
+        font-size: 20px;
+        border-right: solid 1px $dourado_font;
+        float: left;
+    }
+    span.titulo_texto{
+        padding: 15px;
+        color: $dourado_font;
+        margin: 0;
+        border: 0;
+        float: left;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+}
+
+.conteudo_principal{
+    width: 100%;
+    padding: 20px 15px 15px 15px;
+    margin-top: 40px;
+    text-align: justify;
+    h2{
+        color: $vermelho_bg;
+        text-align: left;
+    }
+}
+
+.contem_patrocinadores{
+    width: 100%;
+    min-height: 50px;
+    border: solid 1px $vermelho_bg;
+    margin-bottom: 10px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+
+    .contem_patrocinadores_texto{
+        background: $vermelho_bg;
+        padding: 10px;
+        color: white;
+    }
+}
+
+.contem_fazenda_simples{
+    width: 100%;
+    min-height: 50px;
+    border: solid 1px $vermelho_bg;
+    background: $vermelho_bg;
+    margin-bottom: 10px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+
+    img{
+        max-width: 200px;
+    }
+
+}
+
+
+.contem_fazenda_destaque{
+    width: 100%;
+    min-height: 50px;
+    border: solid 1px $dourado_font;
+    background: $dourado_font;
+    margin-bottom: 10px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+
+    img{
+        max-width: 200px;
+    }
+
+}
+
+
+
+.titulo_fazenda{
+    background: $vermelho_bg;
+    padding: 10px;
+    margin-bottom: 20px;
+    display:table;
+    width: 100%;
+
+    img{
+        width: 40px !important;
+        float: left;
+        margin-bottom: 0 !important;
+        margin-right: 10px;
+    }
+
+    div{
+        float: left;
+    }
+
+    h2{
+        font-family: 'Arizonia', Helvetica, sans-serif;
+        font-size: 12px;
+        color: $dourado_font;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        margin-bottom: 3px;
+
+    }
+    h3{
+        font-size: 8px;
+        color: white;
+        margin: 0;
+        padding: 0;
+
+    }
+}
+
