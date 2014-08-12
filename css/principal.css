@@ -1,37 +1,29 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\000034}}
 body, html {
   padding: 0;
   border: 0;
   margin: 0;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000313}}
 #conteudo_principal {
   width: 100%;
   height: 100%;
   background-color: #4e0101; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000318}}
   #conteudo_principal img {
     width: 80%;
     max-width: 500px;
     margin: 20px auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000324}}
   #conteudo_principal button {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000330}}
 .topo_principal {
   width: 100%;
   background: #4e0101;
   text-align: center;
   padding: 20px;
   border-bottom: solid 1px #d4b272; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000336}}
   .topo_principal img {
     width: 150px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000343}}
 .badge_inicio {
   width: 50%;
   float: left;
@@ -40,40 +32,33 @@ body, html {
   font-size: 14px;
   color: #d4b272;
   background: #4e0101; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000352}}
   .badge_inicio img {
     width: 80%;
-    max-width: 60px;
+    max-width: 300px !important;
     margin-bottom: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000361}}
 .btn-leilao {
   color: #d4b272;
   background-color: #4e0101;
   border-color: #4e0101;
   margin-bottom: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000367}}
   .btn-leilao:hover, .btn-leilao:active {
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000370}}
   .btn-leilao:visited {
     color: #d4b272; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000376}}
 .menu_topo {
   background: #4e0101;
   position: fixed;
   top: 0;
   width: 100%;
   border-bottom: solid 1px #d4b272; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000383}}
   .menu_topo span {
     padding: 15px;
     color: #d4b272;
     font-size: 20px;
     border-right: solid 1px #d4b272;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\0000390}}
   .menu_topo span.titulo_texto {
     padding: 15px;
     color: #d4b272;
@@ -83,18 +68,15 @@ body, html {
     font-size: 16px;
     text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003102}}
 .conteudo_principal {
   width: 100%;
   padding: 20px 15px 15px 15px;
   margin-top: 40px;
   text-align: justify; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003107}}
   .conteudo_principal h2 {
     color: #4e0101;
     text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003113}}
 .contem_patrocinadores {
   width: 100%;
   min-height: 50px;
@@ -103,13 +85,11 @@ body, html {
   float: left;
   padding: 20px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003122}}
   .contem_patrocinadores .contem_patrocinadores_texto {
     background: #4e0101;
     padding: 10px;
     color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003129}}
 .contem_fazenda_simples {
   width: 100%;
   min-height: 50px;
@@ -119,11 +99,9 @@ body, html {
   float: left;
   padding: 20px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003139}}
   .contem_fazenda_simples img {
     max-width: 200px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003146}}
 .contem_fazenda_destaque {
   width: 100%;
   min-height: 50px;
@@ -133,27 +111,22 @@ body, html {
   float: left;
   padding: 20px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003156}}
   .contem_fazenda_destaque img {
     max-width: 200px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003164}}
 .titulo_fazenda {
   background: #4e0101;
   padding: 10px;
   margin-bottom: 20px;
   display: table;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003171}}
   .titulo_fazenda img {
     width: 40px !important;
     float: left;
     margin-bottom: 0 !important;
     margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003178}}
   .titulo_fazenda div {
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003182}}
   .titulo_fazenda h2 {
     font-family: 'Arizonia', Helvetica, sans-serif;
     font-size: 12px;
@@ -162,9 +135,10 @@ body, html {
     padding: 0;
     margin-top: 5px;
     margin-bottom: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/nathan\/\%C3\%81rea\%20de\%20Trabalho\/site_leilao_app\/public_html\/scss\/principal\.scss}line{font-family:\00003192}}
   .titulo_fazenda h3 {
     font-size: 8px;
     color: white;
     margin: 0;
     padding: 0; }
+
+/*# sourceMappingURL=principal.css.map */
